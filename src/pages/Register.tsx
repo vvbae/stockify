@@ -6,11 +6,6 @@ const Register: React.FC = () => {
   return (
     <IonPage>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Register</IonTitle>
-          </IonToolbar>
-        </IonHeader>
         <ExploreContainer name="Registration Page" />
         
         <RegistrationForm />
